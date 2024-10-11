@@ -34,16 +34,16 @@ body {
 }
 
 .page {
-  @include breakpoint($large) {
-    float: inline-end;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-inline-end: $right-sidebar-width-narrow;
-  }
+  // @include breakpoint($large) {
+  //   float: inline-end;
+  //   width: calc(100% - #{$right-sidebar-width-narrow});
+  //   padding-inline-end: $right-sidebar-width-narrow;
+  // }
 
-  @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-inline-end: $right-sidebar-width;
-  }
+  // @include breakpoint($x-large) {
+  //   width: calc(100% - #{$right-sidebar-width});
+  //   padding-inline-end: $right-sidebar-width;
+  // }
 
   .page__inner-wrap {
     float: inline-start;
@@ -186,9 +186,9 @@ body {
     margin-bottom: 2em;
     padding: 3em 0;
     @include clearfix;
-    background-size: cover;
+    background-size: cover; /* 背景画像をコンテナいっぱいに表示 */
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center; /* 背景画像を中央に配置 */
     -webkit-animation: $intro-transition;
     animation: $intro-transition;
     -webkit-animation-delay: 0.25s;
@@ -229,9 +229,11 @@ body {
 }
 
 .page__hero-image {
-  width: 100%;
-  height: auto;
-  -ms-interpolation-mode: bicubic;
+  width: 100%; /* ページ全体の幅にフィットさせる */
+  max-width: 1200px; /* 本文と同じ幅に制限 */
+  margin: 0 auto; /* 中央揃え */
+  height: auto; /* アスペクト比を保持 */
+  display: block; /* インライン要素でなくブロック要素にする */
 }
 
 .page__hero-caption {
@@ -516,27 +518,29 @@ body {
    Related
    ========================================================================== */
 
-.page__related {
-  @include clearfix();
-  float: inline-start;
-  margin-top: 2em;
-  padding-top: 1em;
-  border-top: 1px solid $border-color;
-
-  @include breakpoint($large) {
-    float: inline-end;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-  }
-
-  @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-  }
-
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-}
+   .page__related {
+    @include clearfix();
+    float: inline-start;
+    margin-top: 2em;
+    padding-top: 1em;
+    border-top: 1px solid $border-color;
+  
+    width: 100%; 
+  
+    // @include breakpoint($large) {
+    //   float: inline-end;
+    //   width: calc(100% - #{$right-sidebar-width-narrow}); /* サイドバーを考慮した幅調整 */
+    // }
+  
+    // @include breakpoint($x-large) {
+    //   width: calc(100% - #{$right-sidebar-width}); /* 大画面用にさらに幅を調整 */
+    // }
+  
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }  
 
 .page__related-title {
   margin-bottom: 10px;
