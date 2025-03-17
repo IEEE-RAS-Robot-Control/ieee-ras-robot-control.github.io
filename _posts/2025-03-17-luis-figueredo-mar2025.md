@@ -41,7 +41,7 @@ Robotics is an incredibly active field, with new and exciting research emerging 
 Who does?! It’s more of a nonlinear optimization problem with way too many constraints! Still, with a good team, and some slack here and there, everything is possible. 
 
 ## Luis Figueredo's Links
-- [Personal Website](https://luisfigueredo.com/)
-- [LinkedIn](https://www.linkedin.com/in/luis-figueredo-304a0612b/)
-- [YouTube](https://www.youtube.com/@figueredo_robotics)
-- [Google Scholar](https://scholar.google.com/citations?user=ppZN58sAAAAJ)
+- [Personal Website](https://luisfigueredo.com/){:target="_blank"}
+- [LinkedIn](https://www.linkedin.com/in/luis-figueredo-304a0612b/){:target="_blank"}
+- [YouTube](https://www.youtube.com/@figueredo_robotics){:target="_blank"}
+- [Google Scholar](https://scholar.google.com/citations?user=ppZN58sAAAAJ){:target="_blank"}
