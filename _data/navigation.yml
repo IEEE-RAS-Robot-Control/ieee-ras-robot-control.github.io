@@ -2,9 +2,9 @@
 main:
   - title: "About"
     url: https://www.ieee-ras.org/robot-control
+  - title: "Posts"
+    url: /categories/
   - title: "Contact"
     url: https://www.ieee-ras.org/robot-control/contact
-  # - title: "Posts"
-    # url: /posts
   - title: "Join Us"
     url: https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=CMYRAS058&tcType=&searchResults=Y
