@@ -30,7 +30,8 @@ This policy helps avoid any perceived bias in selecting a Co-Chair’s paper as 
 <a href="https://forms.gle/Bp4nw18Jpt7FLUP26" target="_blank">IEEE-RAS Technical Committee on Robot Control Best Paper Award for 2025</a>	
 
 ## Nomination deadline
-**March 28, 2025**  
+<s>**March 28, 2025**</s>
+**April 30, 2025**
 
 ## Evaluation policy
 The TC Co-Chairs will initially evaluate all nominations, selecting a limited number to be forwarded to external reviewers. 
