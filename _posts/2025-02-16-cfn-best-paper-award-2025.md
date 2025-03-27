@@ -10,7 +10,7 @@ The IEEE-RAS Technical Committee (TC) on Robot Control invites nominations for t
 
 ## Scope
 The Best Paper Award of the TC on Robot Control recognizes outstanding papers published within a calendar year and honors the authors’ contributions to advancing the field of Robot Control. 
-Nominations are open to TC members only. 
+Nominations are open to TC members only. <i>Not a member yet? [<a href="https://www.ieee.org/membership-catalog/productdetail/showProductDetailPage.html?product=CMYRAS058&tcType=&searchResults=Y">Join us here!</a>]</i>
 
 ## How to apply
 Nominations, including self-nominations, must be submitted by TC members.   Self-nominations are encouraged, with a limit of two papers per group. 
