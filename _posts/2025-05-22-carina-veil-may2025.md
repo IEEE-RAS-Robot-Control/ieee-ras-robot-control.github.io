@@ -6,7 +6,7 @@ categories:
   # - 
 ---
 
-![researcher_spotlight_mar2025.jpg](/assets/images/researcher_spotlight/2025-05/Cveil_pic1.jpeg){: .align-center style="width: 55%;"}
+![researcher_spotlight_mar2025.jpg](/assets/images/researcher_spotlight/2025-05/Cveil_pic1.jpeg){: .align-center style="width: 60%;"}
 
 By combining control theory, biomechanics, and artificial intelligence, she addresses the complex dynamics of soft robotic structures and designs motion that is as safe and precise as the bodies they mimic.
 
