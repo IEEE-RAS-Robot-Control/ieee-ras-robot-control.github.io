@@ -37,7 +37,7 @@ A key step in this direction is certified geometric control driven by multimodal
 ## Can you share some interesting work that you read about recently?
 Robotics is an incredibly active field, with new and exciting research emerging all the time. Lately, I’ve been exploring tactile modalities, focusing on how to mathematically represent physical and spatial variables, understand their interplay, and leverage this information for estimation and control. While diving into this area, I came across the works of Zixi Liu and Robert Howe on the effects of tactile sensor resolution, a topic I had been thinking about myself. You know, when you think you have a brilliant idea and someone has already done it! Those are really good papers though. Some might find it discouraging to see their ideas already explored, but it should be exactly the other way around. It just means it was indeed a good idea, and reading you are sure to find new avenues, providing a foundation to build upon rather than a limitation. I’m now looking at how to expand on their insights using my own geometric perspective, pushing toward better representations for control and perception.
 
-## *How do you balance research with the other demands of your position?
+## How do you balance research with the other demands of your position?
 Who does?! It’s more of a nonlinear optimization problem with way too many constraints! Still, with a good team, and some slack here and there, everything is possible. 
 
 ## Luis Figueredo's Links
