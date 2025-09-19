@@ -4,6 +4,8 @@ main:
     url: https://www.ieee-ras.org/robot-control
   - title: "Posts"
     url: /categories/
+  - title: "Awards"
+    url: /awards/
   - title: "Contact"
     url: https://www.ieee-ras.org/robot-control/contact
   - title: "Join Us"

@@ -1,0 +1,47 @@
+.page__content {
+  font-size: 18px !important;  /* 本文の基本サイズ */
+  line-height: 1.8;
+}
+
+.page__content h1 {
+  font-size: 1.8em !important;
+}
+.page__content h2 {
+  font-size: 1.4em !important;
+}
+.page__content h3 {
+  font-size: 1.2em !important;
+}
+.page__content h4 {
+  font-size: 1.1em !important;
+}
+.page__content h5,
+.page__content h6 {
+  font-size: 1em !important;
+}
+
+.img-crop {
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  max-width: 450px;
+  height: 100%;
+  max-height: 450px;
+  margin-bottom: 1em;
+}
+
+.img-crop img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  .img-crop {
+    max-width: 100%;
+    margin-bottom: 1em;
+  }
+}
