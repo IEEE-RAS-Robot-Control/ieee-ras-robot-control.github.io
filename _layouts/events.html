@@ -1,0 +1,20 @@
+---
+layout: archive
+---
+
+{{ content }}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+{% assign events = site.posts | where_exp: "post", "post.tags contains 'Event'" %}
+
+{% if events %}
+  <section id="events" class="taxonomy__section">
+    <br/>
+    <div class="entries-{{ entries_layout }}">
+      {% for post in events %}
+        {% include archive-single.html type=entries_layout %}
+      {% endfor %}
+    </div>
+    <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+  </section>
+{% endif %}
