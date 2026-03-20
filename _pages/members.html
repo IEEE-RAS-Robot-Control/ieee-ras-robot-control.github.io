@@ -1,0 +1,36 @@
+---
+title: "Contact"
+layout: single
+permalink: /contact/
+author_profile: false
+---
+
+<section class="members-section">
+  <h2 style="text-align: center;">Co-chairs</h2>
+  <div class="members-grid">
+    {% for member in site.data.members.co_chairs %}
+    <div class="member-card">
+      <img src="/assets/images/members/co_chair/{{ member.photo }}" alt="{{ member.name }}" class="member-photo">
+      <h3 class="member-name">{{ member.name }}</h3>
+      <div class="member-affiliation">{{ member.affiliation }}</div>
+      <div class="member-location">{{ member.location }}</div>
+      <div class="member-email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="members-section">
+  <h2 style="text-align: center;">Student Representatives</h2>
+  <div class="members-grid">
+    {% for member in site.data.members.student_representatives %}
+    <div class="member-card">
+      <img src="/assets/images/members/student_representative/{{ member.photo }}" alt="{{ member.name }}" class="member-photo">
+      <h3 class="member-name">{{ member.name }}</h3>
+      <div class="member-affiliation">{{ member.affiliation }}</div>
+      <div class="member-location">{{ member.location }}</div>
+      <div class="member-email"><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
