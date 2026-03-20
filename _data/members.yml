@@ -1,0 +1,43 @@
+co_chairs:
+  - name: Cosimo Della Santina
+    photo: cosimo-della_santina.jpg
+    affiliation: Delft University of Technology
+    location: Delft, Netherlands
+    email: c.dellasantina@tudelft.nl
+
+  - name: Sylvia Herbert
+    photo: sylvia_herbert.jpg
+    affiliation: University of California San Diego
+    location: San Diego (CA), United States
+    email: sherbert@ucsd.edu
+
+  - name: Manuel Keppler
+    photo: manuel_keppler.jpg
+    affiliation: German Aerospace Center
+    location: Germany
+    email: Manuel.Keppler@dlr.de
+
+  - name: Kaoru Yamamoto
+    photo: kaoru_yamamoto.jpg
+    affiliation: Kyushu University
+    location: Japan
+    email: yamamoto@ees.kyushu-u.ac.jp
+
+student_representatives:
+  - name: Fumiya Matsuzaki
+    photo: fumiya_matsuzaki.jpg
+    affiliation: Kyushu University
+    location: Japan
+    email: matsuzaki.fumiya.592@s.kyushu-u.ac.jp
+
+  - name: Yuhe Gong
+    photo: yuhe_gong.jpg
+    affiliation: University of Nottingham
+    location: Nottingham, UK
+    email: yuhe.gong@nottingham.ac.uk
+
+  - name: Daniele Caradonna
+    photo: daniele_caradonna.jpg
+    affiliation: "Scuola Superiore Sant'Anna"
+    location: Italy
+    email: danele.caradonna@gmail.com
