@@ -45,4 +45,5 @@ Papers co-authored by TC Co-Chairs are not eligible for nomination. This restric
 The TC Co-Chairs will perform an initial evaluation of the nominations and identify a shortlist of papers to be forwarded to external reviewers. These will then be evaluated by external reviewers selected for their expertise and absence of conflicts of interest, ensuring a fair and rigorous evaluation process.
 
 ## Past Editions
-* [2025 Best Paper Award](https://ieee-ras-robot-control.github.io/announcements/cfn-best-paper-award-2025/)
+<!-- * [2025 Best Paper Award](https://ieee-ras-robot-control.github.io/announcements/cfn-best-paper-award-2025/) -->
+* [2025 Best Paper Award](https://ieee-ras-robot-control.github.io/awards/)
