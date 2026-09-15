@@ -1,0 +1,18 @@
+{%- comment -%}
+  One paper entry for the Best Paper Award pages.
+  Parameters: paper (hash with authors/title/venue/doi/interview), winner (true/false)
+{%- endcomment -%}
+{%- assign paper = include.paper -%}
+<div class="award-paper{% if include.winner %} award-paper--winner{% endif %}">
+  <p class="award-paper__title"><a href="{{ paper.doi }}" target="_blank" rel="noopener">{{ paper.title }}</a></p>
+  <p class="award-paper__authors">{{ paper.authors }}</p>
+  <p class="award-paper__venue">{{ paper.venue }}</p>
+  {%- if include.winner -%}
+  <p class="award-paper__links">
+    <a href="{{ paper.doi }}" class="btn btn--primary btn--small" target="_blank" rel="noopener">Paper</a>
+    {%- if paper.interview %}
+    <a href="{{ paper.interview | relative_url }}" class="btn btn--inverse btn--small">Interview with the authors</a>
+    {%- endif %}
+  </p>
+  {%- endif -%}
+</div>

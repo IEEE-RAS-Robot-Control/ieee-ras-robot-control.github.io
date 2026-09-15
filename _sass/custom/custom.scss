@@ -183,3 +183,85 @@
     text-decoration: underline;
   }
 }
+
+/*
+   Best Paper Awards (/awards/ and /awards/<year>/)
+   ========================================================================== */
+
+.awards-call {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8em;
+
+  a {
+    font-weight: 600;
+    white-space: nowrap;
+  }
+}
+
+.awards-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5em;
+  margin: 1em 0 1.5em;
+
+  a {
+    padding: 0.2em 0.9em;
+    border: 1px solid #e0e0e0;
+    border-radius: 20px;
+    font-size: 0.9em;
+    text-decoration: none;
+
+    &:hover {
+      border-color: $primary-color;
+    }
+  }
+}
+
+.awards-year {
+  margin-bottom: 2.5em;
+}
+
+.awards-year__more {
+  text-align: right;
+  font-size: 0.95em;
+}
+
+.awards-back {
+  font-size: 0.9em;
+}
+
+.award-paper {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1em 1.5em;
+  margin-bottom: 0.8em;
+
+  p {
+    margin: 0.2em 0;
+  }
+
+  &__title {
+    font-weight: 600;
+  }
+
+  &__venue {
+    font-size: 0.9em;
+    color: #666;
+  }
+
+  &__links {
+    margin-top: 0.8em;
+
+    .btn {
+      margin: 0 0.4em 0.4em 0;
+    }
+  }
+
+  &--winner {
+    border-left: 4px solid $primary-color;
+  }
+}
