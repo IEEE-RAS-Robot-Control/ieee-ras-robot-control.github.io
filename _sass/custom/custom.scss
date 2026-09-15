@@ -8,19 +8,19 @@
    ========================================================================== */
 
 .page__content {
-  font-size: 18px !important; /* base body text size */
-  line-height: 1.8;
+  font-size: 16px !important; /* fixed body text size; the theme would scale up to 22px on wide screens */
+  line-height: 1.65;
 
   h1 {
-    font-size: 1.5em !important;
+    font-size: 1.75em !important;
   }
 
   h2 {
-    font-size: 1.2em !important;
+    font-size: 1.4em !important;
   }
 
   h3 {
-    font-size: 1.05em !important;
+    font-size: 1.15em !important;
   }
 
   h4,
@@ -61,6 +61,7 @@
    ========================================================================== */
 
 .entries-list .list__item {
+  font-size: 16px; /* match .page__content instead of the scaling html size */
   background: #fff;
   border: 1px solid #e0e0e0;
   border-radius: 10px;
@@ -73,17 +74,19 @@
   }
 
   .archive__item-title {
-    font-size: 1em !important;
+    font-size: 1.1em !important;
     margin-top: 0;
     margin-bottom: 0.2em;
   }
 
   .archive__item-excerpt {
+    font-size: 0.9em;
     margin-top: 0.2em;
     margin-bottom: 0;
   }
 
   .page__meta {
+    font-size: 0.75em;
     margin-top: 0;
     margin-bottom: 0.2em;
   }
