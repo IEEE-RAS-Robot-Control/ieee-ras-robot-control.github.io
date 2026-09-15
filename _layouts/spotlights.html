@@ -7,7 +7,7 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% assign spotlights = site.categories.Spotlights %}
 
-{% if spotlights %}
+{% if spotlights.size > 0 %}
   <section id="spotlights" class="taxonomy__section">
     <br/>
     <div class="entries-{{ entries_layout }}">

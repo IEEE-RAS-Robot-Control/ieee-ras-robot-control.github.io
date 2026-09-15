@@ -3,7 +3,7 @@ title: "RAS TC Social Event @IROS2025"
 categories:
   - Announcements
 tags:
-  - IROS  2025
+  - IROS 2025
   - Event
 ---
 

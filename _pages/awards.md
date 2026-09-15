@@ -3,10 +3,8 @@ title: "Awards"
 layout: single
 permalink: /awards/
 author_profile: false
-markdown: kramdown
 hide_title: true
 ---
-{% capture mymarkdown %}
 # TC on Robot Control Best Paper Awards
 
 Each year, the TC on Robot Control recognizes outstanding contributions in the field by selecting a **Best Paper** and a set of **Finalists**.  
@@ -46,5 +44,3 @@ The new call for the 2026 Best Paper Award is open. Click [here](https://ieee-ra
 - Andrew Sabelhaus (Boston University)  
 - Ian Abraham (Yale University)
 
-{% endcapture %}
-{{ mymarkdown | markdownify }}

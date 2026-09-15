@@ -3,7 +3,7 @@ title: "Welcome Event: Kickoff for Our TC @IROS 2024"
 categories:
   - Announcements
 tags:
-  - IROS  2024
+  - IROS 2024
   - Event
 ---
 
