@@ -12,10 +12,12 @@ so that GitHub Pages can build the site without extra plugins.
 | `_config.yml` | Site settings (title, logo, permalinks, plugins) |
 | `_data/navigation.yml` | Top navigation menu |
 | `_data/members.yml` | Co-chairs and student representatives shown on `/contact/` |
+| `_data/awards.yml` | Best Paper Award winners, finalists and juries shown on `/awards/` and `/awards/<year>/` |
 | `_pages/` | Static pages (`/awards/`, `/contact/`, `/events/`, `/spotlights/`, `/categories/`) |
 | `_posts/` | Announcements and researcher spotlights |
 | `_posts/award_winner/` | Best Paper Award interviews (hidden from lists, explicit permalinks) |
 | `_layouts/events.html`, `_layouts/spotlights.html` | Site-specific archive layouts |
+| `_layouts/award-year.html`, `_includes/award-paper.html` | Per-year award page and paper card |
 | `_sass/custom/custom.scss` | All site-specific styling |
 | `assets/images/` | Logos, member photos, spotlight and award images |
 
@@ -43,8 +45,12 @@ tags:
 - **Researcher spotlights** → `categories: [Spotlights]`, listed on `/spotlights/`. Put the photo
   under `assets/images/researcher_spotlight/YYYY-MM/`.
 - **Events** → add the `Event` tag; they are listed on `/events/`.
+- **Best Paper Award results** → add a block for the year to `_data/awards.yml` and copy
+  `_pages/awards/2025.md` to `_pages/awards/<year>.md` (change `title`, `permalink`, `year`).
+  The overview at `/awards/` and the year page are generated from the data. Set `open_call`
+  in the same file while a call for nominations is open.
 - **Award winner interviews** → put the file in `_posts/award_winner/`, set `hidden: true` and an
-  explicit `permalink:`, then link to it from `_pages/awards.md`.
+  explicit `permalink:`, then reference it as `interview:` in `_data/awards.yml`.
 - **Members** → edit `_data/members.yml` and add the photo under `assets/images/members/`.
 
 ## Local preview

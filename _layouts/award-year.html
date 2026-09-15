@@ -1,0 +1,53 @@
+---
+layout: single
+---
+{%- comment -%}
+  Per-year Best Paper Award page. Reads the entry for page.year from _data/awards.yml.
+{%- endcomment -%}
+{% assign years = site.data.awards.years | sort: "year" %}
+{% assign entry = years | where: "year", page.year | first %}
+{% for y in years %}
+  {% if y.year == page.year %}{% assign idx = forloop.index0 %}{% endif %}
+{% endfor %}
+{% assign prev_idx = idx | minus: 1 %}
+{% assign next_idx = idx | plus: 1 %}
+{% if prev_idx >= 0 %}{% assign prev = years[prev_idx] %}{% endif %}
+{% if next_idx < years.size %}{% assign next = years[next_idx] %}{% endif %}
+
+<p class="awards-back"><a href="{{ '/awards/' | relative_url }}">&larr; All Best Paper Awards</a></p>
+
+{{ content }}
+
+{% if entry %}
+<h2>Winner</h2>
+{% include award-paper.html paper=entry.winner winner=true %}
+
+<h2>Finalists</h2>
+{% for paper in entry.finalists %}
+  {% include award-paper.html paper=paper %}
+{% endfor %}
+
+<h2>Jury</h2>
+<ul>
+  {% for member in entry.jury %}
+  <li>{{ member.name }}{% if member.affiliation %} ({{ member.affiliation }}){% endif %}</li>
+  {% endfor %}
+</ul>
+{% else %}
+<p>No data for {{ page.year }} yet. Add an entry to <code>_data/awards.yml</code>.</p>
+{% endif %}
+
+{% if prev or next %}
+<nav class="pagination">
+  {% if prev %}
+    <a href="{{ '/awards/' | append: prev.year | append: '/' | relative_url }}" class="pagination--pager">&larr; {{ prev.year }}</a>
+  {% else %}
+    <a href="#" class="pagination--pager disabled">&larr; Previous</a>
+  {% endif %}
+  {% if next %}
+    <a href="{{ '/awards/' | append: next.year | append: '/' | relative_url }}" class="pagination--pager">{{ next.year }} &rarr;</a>
+  {% else %}
+    <a href="#" class="pagination--pager disabled">Next &rarr;</a>
+  {% endif %}
+</nav>
+{% endif %}

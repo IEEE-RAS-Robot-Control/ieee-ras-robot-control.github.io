@@ -1,0 +1,40 @@
+---
+title: "Awards"
+layout: single
+permalink: /awards/
+author_profile: false
+hide_title: true
+---
+{% assign awards = site.data.awards %}
+{% assign years = awards.years | sort: "year" | reverse %}
+
+<h1>TC on Robot Control Best Paper Awards</h1>
+
+<p>Each year, the TC on Robot Control recognizes outstanding contributions in the field by selecting a
+<strong>Best Paper</strong> and a set of <strong>Finalists</strong>. The awards are presented annually.</p>
+
+{% if awards.open_call.url %}
+<div class="notice--info awards-call">
+  <strong>The call for nominations for the {{ awards.open_call.year }} Best Paper Award is open.</strong>
+  <a href="{{ awards.open_call.url | relative_url }}">How to apply &rarr;</a>
+</div>
+{% endif %}
+
+{% if years.size > 1 %}
+<nav class="awards-years" aria-label="Award years">
+  {% for y in years %}
+  <a href="#{{ y.year }}">{{ y.year }}</a>
+  {% endfor %}
+</nav>
+{% endif %}
+
+{% for y in years %}
+<section id="{{ y.year }}" class="awards-year">
+  <h2>{{ y.year }}</h2>
+  <h3>Winner</h3>
+  {% include award-paper.html paper=y.winner winner=true %}
+  <p class="awards-year__more">
+    <a href="{{ '/awards/' | append: y.year | append: '/' | relative_url }}">Finalists and jury of {{ y.year }} &rarr;</a>
+  </p>
+</section>
+{% endfor %}

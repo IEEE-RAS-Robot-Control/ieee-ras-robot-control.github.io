@@ -1,0 +1,47 @@
+# Best Paper Award data.
+#
+# Rendered on /awards/ (_pages/awards.html) and on the per-year pages
+# (_pages/awards/<year>.md, layout: award-year).
+#
+# To add a year:
+#   1. append a block to `years` below (newest year is shown first automatically)
+#   2. copy _pages/awards/2025.md to _pages/awards/<year>.md and change the year
+#   3. update `open_call` for the next call, or leave `url` empty to hide the notice
+
+# Call for nominations that is currently open. Leave `url` empty to hide.
+open_call:
+  year: 2026
+  url: /announcements/awards/cfn-best-paper-award-2026/
+
+years:
+  - year: 2025
+    winner:
+      authors: "T. Duong, A. Altawaitan, J. Stanley and N. Atanasov"
+      title: "Port-Hamiltonian Neural ODE Networks on Lie Groups for Robot Dynamics Learning and Control"
+      venue: "IEEE Transactions on Robotics, vol. 40, pp. 3695-3715, 2024"
+      doi: https://doi.org/10.1109/TRO.2024.3428433
+      interview: /awards/2025/interview-duong/
+    finalists:
+      - authors: "J. van Steen, G. v. d. Brandt, N. v. d. Wouw, J. Kober and A. Saccon"
+        title: "Quadratic Programming-Based Reference Spreading Control for Dual-Arm Robotic Manipulation With Planned Simultaneous Impacts"
+        venue: "IEEE Transactions on Robotics, vol. 40, pp. 3341-3355, 2024"
+        doi: https://doi.org/10.1109/TRO.2024.3420800
+      - authors: "D. R. Agrawal, R. Chen and D. Panagou"
+        title: "gatekeeper: Online Safety Verification and Control for Nonlinear Systems in Dynamic Environments"
+        venue: "IEEE Transactions on Robotics, vol. 40, pp. 4358-4375, 2024"
+        doi: https://doi.org/10.1109/TRO.2024.3454415
+      - authors: "Javier Borquez, Shuang Peng, Yiyu Chen, Quan Nguyen, Somil Bansal"
+        title: "Hamilton-Jacobi Reachability Analysis for Hybrid Systems with Controlled and Forced Transitions"
+        venue: "Proceedings of Robotics: Science and Systems (RSS), Delft, Netherlands, July 2024"
+        doi: https://doi.org/10.15607/RSS.2024.XX.006
+      - authors: "Lasse Peters, Andrea Bajcsy, Chih-Yuan Chiu, David Fridovich-Keil, Forrest Laine, Laura Ferranti, Javier Alonso-Mora"
+        title: "Contingency Games for Multi-Agent Interaction"
+        venue: "IEEE Robotics and Automation Letters, vol. 9, no. 3, pp. 2208-2215, March 2024"
+        doi: https://doi.org/10.1109/LRA.2024.3354548
+    jury:
+      - name: "Marilena Vendittelli"
+        affiliation: "University of Rome La Sapienza"
+      - name: "Andrew Sabelhaus"
+        affiliation: "Boston University"
+      - name: "Ian Abraham"
+        affiliation: "Yale University"
