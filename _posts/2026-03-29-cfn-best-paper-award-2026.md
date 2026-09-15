@@ -1,7 +1,9 @@
 ---
 title: "Call for Nominations: TC on Robot Control Best Paper Award 2026"
 date: 2026-03-29
-categories: [Announcements, Awards]
+categories:
+  - Announcements
+  - Awards
 ---
 
 The IEEE-RAS Technical Committee (TC) on Robot Control invites nominations for the 2026 Best Paper Award.
