@@ -8,9 +8,18 @@ tags:
   - Event
 ---
 
-[IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026](https://2026.ieee-iros.org/){:target="_blank"} is around the corner, and the TC on Robot Control is excited to support a fantastic set of workshops and tutorials this year!
+[IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026](https://2026.ieee-iros.org/){:target="_blank"} is around the corner, and the TC on Robot Control is excited to host a Special Forum on the future of robot control and to support a fantastic set of workshops and tutorials this year!
 
-![IROS 2026 logo](/assets/images/conf_logos/iros_2026.svg){: .align-center style="width: 300px;"}
+![IROS 2026 logo](/assets/images/conf_logos/iros_2026.svg){: .align-center style="width: 220px;"}
+
+## TC Special Forum — Tuesday, Sep. 29, 2:30 PM
+
+[![Special Forum at IROS 2026: Is Robotics Underinvesting in Its Own Foundations?](/assets/images/iros2026_special_forum.jpg){: .align-center style="max-width: 600px; width: 100%;"}](/announcements/iros-2026-special-forum/)
+
+**Forum organized by TC on Robot Control · 2:30 PM–5:00 PM · [Room 407](https://2026.ieee-iros.org/program/venue-map/?room=407#level-4){:target="_blank"}**
+{: .text-center}
+
+Senior researchers, industry leaders, and RAS leadership discuss how to sustain foundational robot control research. See the [forum announcement](/announcements/iros-2026-special-forum/) and the [forum website](https://ieee-ras-robot-control.github.io/iros26_sf/){:target="_blank"} for the program and speakers.
 
 ## Workshops & Tutorials Around IROS 2026
 
