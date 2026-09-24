@@ -22,7 +22,7 @@ Robot control has long been a foundational pillar of robotics, yet its visibilit
 
 The forum closes the TC's three-event initiative in 2026, following our workshops at ECC 2026 (Reykjavik) and the IFAC World Congress (Busan), and will conclude with actionable recommendations to be published as a position paper.
 
-### Program
+## Program
 Ten-minute perspective talks in two blocks, followed by a panel discussion with all speakers.
 
 **Robot Control Today and Tomorrow**
