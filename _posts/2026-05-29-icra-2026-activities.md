@@ -3,6 +3,9 @@ title: "TC on Robot Control @ ICRA 2026 — Vienna, June 1–5"
 date: 2026-05-29
 categories:
   - Announcements
+tags:
+  - ICRA 2026
+  - Event
 ---
 
 IEEE International Conference on Robotics and Automation (ICRA) 2026 is around the corner, and the TC on Robot Control is excited to support a fantastic set of workshops and tutorials this year!
