@@ -8,7 +8,7 @@ tags:
   - Event
 ---
 
-IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026 is around the corner, and the TC on Robot Control is excited to support a fantastic set of workshops and tutorials this year!
+[IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026](https://2026.ieee-iros.org/){:target="_blank"} is around the corner, and the TC on Robot Control is excited to support a fantastic set of workshops and tutorials this year!
 
 ![IROS 2026 logo](/assets/images/conf_logos/iros_2026.svg){: .align-center style="width: 300px;"}
 
@@ -61,7 +61,7 @@ Please register from the following link. **Note that the capacity is limited to 
 ### Access
 
 <div style="max-width: 600px; margin: 1em auto;">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5087.7396432935775!2d-79.99363672942401!3d40.44881339922049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f3c011e6cfd5%3A0x24aa8518d353136c!2sTapville%20Social%20-%20Pittsburgh!5e1!3m2!1sen!2sjp!4v1790211202104!5m2!1sen!2sjp" style="border: 0; width: 100%; aspect-ratio: 4 / 3; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.204931493223!2d-79.9900073!3d40.448601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8834f3c011e6cfd5%3A0x24aa8518d353136c!2sTapville%20Social%20-%20Pittsburgh!5e0!3m2!1sen!2sjp!4v1790214503997!5m2!1sen!2sjp" style="border: 0; width: 100%; aspect-ratio: 4 / 3; display: block;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </div>
 
 See you in Pittsburgh!
