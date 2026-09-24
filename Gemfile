@@ -1,6 +1,5 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.7"
-gem "minimal-mistakes-jekyll"
-
-gem "kramdown-parser-gfm", "~> 1.1"
+# Mirrors the GitHub Pages build environment (Jekyll 3.10, whitelisted plugins).
+# https://pages.github.com/versions/
+gem "github-pages", group: :jekyll_plugins

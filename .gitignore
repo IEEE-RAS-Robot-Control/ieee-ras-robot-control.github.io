@@ -6,8 +6,8 @@ _site/
 
 # Bundler / Node
 .bundle/
+vendor/
 node_modules/
-# Do NOT ignore vendor/ (needed for GitHub Pages builds)
 
 # OS files
 .DS_Store
