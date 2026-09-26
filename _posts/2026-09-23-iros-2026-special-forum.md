@@ -27,17 +27,23 @@ The forum closes the TC's three-event initiative in 2026, following our workshop
 ## Program
 Ten-minute perspective talks in two blocks, followed by a panel discussion with all speakers.
 
-**Robot Control Today and Tomorrow**
-* Sehoon Oh — DGIST, South Korea
-* Bruno Vilhena Adorno — The University of Manchester, UK
-* Sylvia Herbert — UC San Diego, USA *(tbc)*
-* Michael Lutter — Boston Dynamics, USA *(tbc)*
-* Sven Parusel — Franka Robotics, Germany
-* Nicholas Paine — Apptronik, USA *(tbc)*
+* **2:30 PM–2:40 PM** · Opening
 
-**Rebuilding a Home for Robot Control**
-* Marcelo Ang — Chair, IEEE RAS Robotics Foundation Cluster
-* Hugo Rodrigue — IEEE RAS Vice President of Technical Activities
+**Block 1: Robot Control Today and Tomorrow**
+* **2:40 PM–2:50 PM** · Sehoon Oh — DGIST, South Korea
+* **2:50 PM–3:00 PM** · Michael Lutter — Boston Dynamics, USA
+* **3:00 PM–3:10 PM** · Bruno Vilhena Adorno — The University of Manchester, UK
+* **3:10 PM–3:20 PM** · Steven Jens Jorgensen — Apptronik, USA
+* **3:20 PM–3:30 PM** · Antonio Bicchi — University of Pisa & IIT, Italy
+* **3:30 PM–3:55 PM** · Coffee break
+
+**Block 2: Rebuilding a Home for Robot Control**
+* **3:55 PM–4:05 PM** · Marcelo Ang — National University of Singapore; Chair, IEEE RAS Robotics Foundation Cluster
+* **4:05 PM–4:15 PM** · Hugo Rodrigue — Sungkyunkwan University; IEEE RAS Vice President of Technical Activities
+* **4:15 PM–4:55 PM** · Panel discussion with all speakers
+
+**Closing: Recommendations & Next Steps**
+* **4:55 PM–5:00 PM** · Summary, actionable recommendations, and announcement of the planned position paper
 
 Full program and speaker details are available on the forum website. For the TC-supported workshops, keynotes, and the joint TC social event, see our [IROS 2026 activities post](/announcements/iros-2026-activities/).
 
