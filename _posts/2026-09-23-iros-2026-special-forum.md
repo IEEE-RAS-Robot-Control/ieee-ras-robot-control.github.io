@@ -2,7 +2,7 @@
 title: "Special Forum @ IROS 2026: Is Robotics Underinvesting in Its Own Foundations?"
 date: 2026-09-23
 header:
-  og_image: /assets/images/iros2026_special_forum.jpg
+  og_image: /assets/images/og_image/iros2026_special_forum.jpg
 excerpt: "Tuesday, Sep. 29, 2:30–5:00 PM, Room 407. A TC-organized forum with senior researchers, industry leaders, and RAS leadership on sustaining foundational robot control research."
 categories:
   - Announcements
@@ -11,7 +11,7 @@ tags:
   - Event
 ---
 
-[![Special Forum at IROS 2026: Is Robotics Underinvesting in Its Own Foundations?](/assets/images/iros2026_special_forum.jpg){: .align-center style="max-width: 600px; width: 100%;"}](https://ieee-ras-robot-control.github.io/iros26_sf/){:target="_blank"}
+[![Special Forum at IROS 2026: Is Robotics Underinvesting in Its Own Foundations?](/assets/images/og_image/iros2026_special_forum.jpg){: .align-center style="max-width: 600px; width: 100%;"}](https://ieee-ras-robot-control.github.io/iros26_sf/){:target="_blank"}
 
 **Tuesday, Sep. 29 · 2:30 PM–5:00 PM · [Room 407](https://2026.ieee-iros.org/program/venue-map/?room=407#level-4){:target="_blank"}, David L. Lawrence Convention Center**
 {: .text-center}

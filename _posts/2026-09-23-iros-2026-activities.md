@@ -14,7 +14,7 @@ tags:
 
 ## TC Special Forum — Tuesday, Sep. 29, 2:30 PM
 
-[![Special Forum at IROS 2026: Is Robotics Underinvesting in Its Own Foundations?](/assets/images/iros2026_special_forum.jpg){: .align-center style="max-width: 600px; width: 100%;"}](/announcements/iros-2026-special-forum/)
+[![Special Forum at IROS 2026: Is Robotics Underinvesting in Its Own Foundations?](/assets/images/og_image/iros2026_special_forum.jpg){: .align-center style="max-width: 600px; width: 100%;"}](/announcements/iros-2026-special-forum/)
 
 **Forum organized by TC on Robot Control · 2:30 PM–5:00 PM · [Room 407](https://2026.ieee-iros.org/program/venue-map/?room=407#level-4){:target="_blank"}**
 {: .text-center}

@@ -4,6 +4,30 @@
    ========================================================================== */
 
 /*
+   Masthead
+   ========================================================================== */
+
+/* The theme separates the logo link and the title link with a margin on the
+   logo, which leaves a dead (unclickable) strip between them. Move that
+   spacing inside the title link as padding so the whole area is clickable. */
+.greedy-nav {
+  a.site-logo {
+    margin-inline-end: 0;
+  }
+
+  a.site-title {
+    padding-inline-start: 0.5rem;
+  }
+}
+
+/* Make the bar shorter without touching font sizes: halve the vertical
+   padding (theme: 1em). The bar's content height is set by the two-line
+   title (title + subtitle), so the logo size is left as is. */
+.masthead .masthead__inner-wrap {
+  padding-block: 0.5em;
+}
+
+/*
    Typography
    ========================================================================== */
 
